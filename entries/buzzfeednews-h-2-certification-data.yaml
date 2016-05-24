@@ -1,0 +1,10 @@
+title: H-2 Visa Certification Data
+github: https://github.com/BuzzFeedNews/H-2-certification-data
+description: |
+  This repository contains data tracking the U.S. Department of Labor's H-2 visa certification decisions.
+
+datas:
+  - title: Standardized H-2 Visa Certification Data
+    url: https://github.com/BuzzFeedNews/H-2-certification-data/blob/master/data/processed/H-2-certification-decisions.csv
+    description: |
+      Over the years, the OFLC has slightly changed the H-2 visa decision data it publishes, and the names of various fields. The code in this repository standardizes the field names and other bits of nomenclature. It also standardizes state abbreviations and consolidates information about visa agents. For simplicity's sake, it also ignores some fields.

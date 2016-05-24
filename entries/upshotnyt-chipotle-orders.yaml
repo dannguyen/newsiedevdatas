@@ -1,0 +1,9 @@
+title: At Chipotle, How Many Calories Do People Really Eat?
+url: http://www.nytimes.com/interactive/2015/02/17/upshot/what-do-people-actually-order-at-chipotle.html
+github: https://github.com/TheUpshot/chipotle
+datas:
+  - title: Chipotle meals ordered on GrubHub
+    url: https://github.com/TheUpshot/chipotle/blob/master/orders.tsv
+    source: GrubHub
+    description: |
+      It’s some of the most detailed information yet published on what people actually order – not just what’s on the menu.

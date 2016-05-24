@@ -1,0 +1,11 @@
+title: Authority and accountability in America's parole boards
+articles:
+  - title: Life Without Parole
+    url: https://www.themarshallproject.org/2015/07/10/life-without-parole
+github: https://github.com/themarshallproject/parole-boards
+datas:
+  url: https://github.com/themarshallproject/parole-boards/blob/master/data/parole_board_data.csv
+  title: America's parole boards
+  description: Information on the authority and transparency of America's parole boards
+categories:
+  - hand-collected

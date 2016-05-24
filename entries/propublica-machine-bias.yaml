@@ -1,0 +1,36 @@
+title: How We Analyzed the COMPAS Recidivism Algorithm
+url: https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm/
+description: |
+  We set out to assess one of the commercial tools made by Northpointe, Inc. to discover the underlying accuracy of their recidivism algorithm and to test whether the algorithm was biased against certain groups.
+github: https://github.com/propublica/compas-analysis
+
+datas:
+  - title: Broward County defendants' criminal histories and COMPAS risk scores
+    format: sqlite3
+    url: https://github.com/propublica/compas-analysis/blob/master/compas.db
+    description: |
+      A sqlite3 database containing criminal history, jail and prison time, demographics and COMPAS risk scores for defendants from Broward County.
+code:
+  - title: Compas Analysis
+    url: https://github.com/propublica/compas-analysis/blob/master/Compas%20Analysis.ipynb
+    description: |
+      What follows are the calculations performed for ProPublica's analaysis of the COMPAS Recidivism Risk Scores. It might be helpful to open the methodology in another tab to understand the following.
+
+references:
+  - title: "Risk, Race, & Recidivism: Predictive Bias and Disparate Impact"
+    url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2687339
+    description: |
+      The largest examination of racial bias in U.S. risk assessment algorithms since then is a 2016 paper by Jennifer Skeem at University of California, Berkeley and Christopher T. Lowenkamp from the Administrative Office of the U.S. Courts. They examined data about 34,000 federal offenders to test the predictive validity of the Post Conviction Risk Assessment tool that was developed by the federal courts to help probation and parole officers determine the level of supervision required for an inmate upon release.
+
+        The authors found that the average risk score for black offenders was higher than for white offenders, but that concluded the differences were not attributable to bias.
+
+  - title: "Thirty Years of Research on the Level of Service Scales: A Meta-Analytic Examination of Predictive Accuracy and Sources of Variability"
+    url: https://www.researchgate.net/publication/258920739_Thirty_Years_of_Research_on_the_Level_of_Service_Scales_A_Meta-Analytic_Examination_of_Predictive_Accuracy_and_Sources_of_Variability
+    description: |
+      A 2013 study analyzed the predictive validity among various races for another score called the Level of Service Inventory, one of the most popular commercial risk scores from Multi-Health Systems. That study found that “ethnic minorities have higher LS scores than nonminorities.” The study authors, who are Canadian, noted that racial disparities were more consistently found in the U.S. than in Canada. “One possibility may be that systematic bias within the justice system may distort the measurement of ‘true’ recidivism,” they wrote.
+
+  - title: Post Conviction Risk Assessment
+    url: http://www.uscourts.gov/statistics-reports/publications/post-conviction-risk-assessment
+    description: |
+      This overview, published September 2011, provides information for federal judges and legal practitioners about the Federal Post Conviction Risk Assessment (PCRA). Developed by the Administrative Office of the United States Courts, the PCRA is designed to improve the effectiveness and efficiency of post-conviction supervision.
+

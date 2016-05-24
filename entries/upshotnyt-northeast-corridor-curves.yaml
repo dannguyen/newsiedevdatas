@@ -1,0 +1,13 @@
+title: "The Northeast Corridor's Curviest Stretches, and Amtrak's Plans for Safety and Speed"
+url: http://www.nytimes.com/interactive/2015/06/24/upshot/amtrak-crash-was-on-one-of-curviest-stretches.html
+references:
+  - url: http://jeremybmerrill.com/clips/2015/06/the-northeast-corridors-curviest-stretches.html
+  - url: http://www.nytimes.com/2016/01/31/magazine/the-wreck-of-amtrak-188.html
+  - url: https://jeremybmerrill.cartodb.com/viz/43ce19fc-ff4c-11e4-9c1d-0e8dde98a187/public_map
+code:
+  - url: https://gist.github.com/jeremybmerrill/0837d7d7eb6609c16b6c
+datas:
+  - title: amtrak_stations_2263
+    url: https://jeremybmerrill.cartodb.com/tables/amtrak_stations_2263/public
+  - title: nec_segments_shingled_tenths
+    url: https://jeremybmerrill.cartodb.com/viz/43ce19fc-ff4c-11e4-9c1d-0e8dde98a187/public_map

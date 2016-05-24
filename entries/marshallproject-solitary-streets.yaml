@@ -1,0 +1,10 @@
+description: |
+  Data collected to count the numbers of prisoners released from solitary confinement in American prisons
+
+github: https://github.com/themarshallproject/solitary-streets
+categories:
+  - crowdsourced
+  - hand-collected
+articles:
+  - title: From Solitary to the Street
+    url: https://www.themarshallproject.org/2015/06/11/from-solitary-to-the-street
